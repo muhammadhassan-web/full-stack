@@ -1,6 +1,10 @@
 {
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^22.20.5",
     "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.3"
   }
 }
