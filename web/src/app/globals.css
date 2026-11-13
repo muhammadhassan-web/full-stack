@@ -1,3 +1,18 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { font-family: system-ui, sans-serif; background: #f1f4f3; color: #16212c; color-scheme: light; }
+.app { display: flex; flex-direction: column; height: 100vh; }
+.chrome { display: flex; gap: 8px; align-items: center; padding: 8px 12px; background: #fff; border-bottom: 1px solid #d3dbd8; }
+.chrome select, .chrome button, .chrome input { font: inherit; padding: 6px 10px; border: 1px solid #c5cecb; border-radius: 8px; background: #fff; color: #16212c; }
+.chrome button { cursor: pointer; }
+.chrome button:disabled { opacity: 0.4; cursor: default; }
+.addr { flex: 1; display: flex; gap: 8px; }
+.addr input { flex: 1; min-width: 0; }
+.banner { padding: 6px 12px; background: #fae8e7; color: #8f2a24; font-size: 14px; }
+.banner.info { background: #e7f0fb; color: #1f4f8f; }
+.viewport { flex: 1; min-height: 0; background: #fff; overflow: auto; }
+.frame { display: block; width: 100%; height: 100%; border: 0; }
+.blank, .nowhere { max-width: 560px; margin: 80px auto; padding: 0 24px; color: #41505e; }
 .srch { display: flex; gap: 6px; }
 .srch input { width: 160px; }
 .body { flex: 1; min-height: 0; display: flex; }
